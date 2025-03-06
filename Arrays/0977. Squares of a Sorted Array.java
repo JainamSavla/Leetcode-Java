@@ -1,5 +1,5 @@
 //977. Squares of a Sorted Array
-//7 ms beats 44.06% coders
+//7 ms beats 44.06% coders because the inbuilt sort function uses quicksort
 class Solution {
     public int[] sortedSquares(int[] nums) {
         int [] temp=new int[nums.length];
