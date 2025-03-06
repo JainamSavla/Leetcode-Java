@@ -1,4 +1,5 @@
-//Remove Duplicates from Sorted Array
+//0026 Remove Duplicates from Sorted Array
+//Runtime 0 ms Beats 100.00%
 class Solution {
     public int removeDuplicates(int[] nums) {
     if (nums.length == 0) return 0; // Handle empty case
