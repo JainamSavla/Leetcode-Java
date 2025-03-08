@@ -18,3 +18,19 @@ class Solution {
         return false;
     }
 }
+
+//HashSet
+//Runtime 2ms TIME COMPLEXITY: = O(N)
+//Memory 43.11MB SPACE COMPLEXITY=O(N)
+class Solution {
+    public boolean checkIfExist(int[] arr) {
+        Set<Integer> set=new HashSet<>();
+        for(int num:arr){
+            if(set.contains(2*num)||(num % 2 == 0 && set.contains(num / 2))){//if it is odd then the division wont work correctly so we placed a condition to check even number 
+                return true;
+            }
+            set.add(num);
+        }
+        return false;
+    }
+}
