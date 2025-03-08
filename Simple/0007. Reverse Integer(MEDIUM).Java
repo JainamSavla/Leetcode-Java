@@ -1,7 +1,7 @@
 //0007. Reverse Integer(MEDIUM)
 //0ms Beats 100.00% 
 //The number of iterations is equal to the number of digits in x, which is O(log n) (since an integer x has approximately log10(n) digits).
-Time Complexity: O(log n)
+//Time Complexity: O(log n)
 //Memory 40.71MB Beats 84.41% SPACE COMPLEXITY:O(1) since no other variables is used 
 
 class Solution {
