@@ -21,7 +21,7 @@ class Solution {
 
 //HashSet
 //Runtime 2ms TIME COMPLEXITY: = O(N)
-//Memory 43.11MB SPACE COMPLEXITY=O(N)
+//Memory 43.11MB SPACE COMPLEXITY=O(N) 
 class Solution {
     public boolean checkIfExist(int[] arr) {
         Set<Integer> set=new HashSet<>();
