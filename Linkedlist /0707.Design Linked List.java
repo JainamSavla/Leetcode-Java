@@ -1,3 +1,7 @@
+//707.Design Linked List
+//9 ms Beats 54.07% 
+//Memory 45.58 MB Beats 69.02%
+
 // Node class for the singly linked list
 class Node {
     int val;
