@@ -1,3 +1,5 @@
+//time complexity is O(n log n).
+//Space Complexity: O(1)
 class Solution {
     public int minOperations(int[] nums, int k) {
         Arrays.sort(nums);
